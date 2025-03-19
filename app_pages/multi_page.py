@@ -11,7 +11,7 @@ class MultiPage:
             page_icon=":shark:",
         )
 
-    def add_page(self, title, func):
+    def app_page(self, title, func):
         self.pages.append({"title": title, "function": func})
 
     def run(self):
